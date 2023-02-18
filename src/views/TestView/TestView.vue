@@ -5,4 +5,8 @@ import UnoCssTest from 'src/shared/components/UnoCssTest/UnoCssTest.vue'
 
 <template>
   <UnoCssTest />
+  <q-btn
+    label="test"
+    @click="rundCmd()"
+  />
 </template>
